@@ -103,3 +103,17 @@ The 𝗔𝗜 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁𝘀 𝗮𝗿𝗲 𝗻𝗼𝘄 
 ![Day 4 Order Cancelled](https://github.com/user-attachments/assets/59ef930d-675c-4a86-939a-cdc98060b42f)
 
 
+### Highlights
+- Generated Terraform .tf file leveraging Anthropic Claude AI
+- Leveraged AWS EC2 instance to install Terraform and create General Purpose S3 Bucket and DynamoDB Tables
+  Initialized, reviewed, and applied Terraform using respective commands - terraform init, terraform plan, terraform apply
+- Containerized CloudMart using Docker, ensuring a portable and consistent environment and registering it on Amazon ECR (Elastic Container Registry).
+- Deployed and orchestrated Docker containers on Amazon EKS (Elastic Kubernetes Service) for high availability and seamless scalability.
+- Troubleshot challenges, gaining a deeper understanding of Kubernetes networking, scaling strategies, and deployment best practices.
+- Implemented CI/CD pipeline using AWS CodeBuild, a fully managed build service that compiles source code, runs automated tests, and generates deployable artifacts—all without the overhead of 
+   managing infrastructure.
+- Monitoring Tracked deployment progress via AWS CloudWatch Logs.
+- Provisioned infrastructure using Terraform to automate IAM roles, policies, Bedrock Agent permissions, and Lambda function ARNs.
+- Configured Amazon Bedrock Agent to leverage Claude 3 Sonnet Model and permissioned to invoke Lambda functions
+- Configured OpenAI Assistant for Customer Support and defined its role to handle customer inquiries, order issues, and general assistance with friendly and professional responses.
+- AI assistants are live by integrating the assistant IDs and access keys into the CloudMart backend.
