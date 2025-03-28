@@ -32,10 +32,11 @@ Terraform Workflow involves:
 5. Applied the configuration using the command - terraform apply
 
 ### Day 2 Mastering Containerization & Orchestration: CloudMart on Amazon EKS
--Step 1: Install Docker on EC2
--Step 2: Create Docker image for CloudMart
--Step 3: Cluster setup on AWS Elastic Kubernetes Services (EKS)
--Step 4: Frontend and Backend Deployment on Kubernetes by creating an ECR repository and upload docker image to it
+Step 1: Install Docker on EC2  
+Step 2: Create Docker image for CloudMart  
+Step 3: Cluster setup on AWS Elastic Kubernetes Services (EKS)  
+Step 4: Frontend and Backend Deployment on Kubernetes by creating an ECR repository and upload docker image to it  
+
 
 
 
