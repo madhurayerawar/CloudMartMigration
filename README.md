@@ -37,7 +37,26 @@ Step 2: Create Docker image for CloudMart
 Step 3: Cluster setup on AWS Elastic Kubernetes Services (EKS)  
 Step 4: Frontend and Backend Deployment on Kubernetes by creating an ECR repository and upload docker image to it  
 
+🔥 Key Accomplishments:
+- Containerized CloudMart using Docker, ensuring a portable and consistent environment and registering it on Amazon ECR (Elastic Container Registry).
+- Deployed and orchestrated Docker containers on Amazon EKS (Elastic Kubernetes Service) for high availability and seamless scalability.
+- Troubleshot challenges along the way, gaining a deeper understanding of Kubernetes networking, scaling strategies, and deployment best practices.
 
+🌟 The Best Part?
+Watching the CloudMart website come to life on an Amazon EKS cluster, running smoothly and efficiently!
 
+### Day 3 Building CI/CD Pipeline using AWS Codebuild
+In modern software development, Continuous Integration and Continuous Deployment (CI/CD) pipelines are the backbone of rapid, reliable, and automated deployments. They ensure seamless code integration, rigorous testing, and efficient delivery, reducing manual intervention and accelerating time to market.
+Set up a CI/CD pipeline using 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱, a fully managed build service that compiles source code, runs automated tests, and generates deployable artifacts—all without the overhead of managing infrastructure.
 
+#### 𝗖𝗜/𝗖𝗗 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗜𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗳𝗼𝗿 𝗖𝗹𝗼𝘂𝗱𝗠𝗮𝗿𝘁
+⚡ The CloudMart code resides in GitHub, where AWS CodeBuild fetches the source code for building and deployment.
+1. Create New Pipeline
+2. Configure AWS CodeBuild to build Docker image
+  2.a Create a Build Project and connect to your git repo
+  2.b Add AmazonElasticContainerRegistryPublicFullAccess permission to ECR in the service role.
+3. Configure AWS CodeBuild for Application Deployment
+     3.a Create a Deployment Project which underneath performs kubectl commands used to deploy and configure EKS cluster
+4. Test the CI/CD Pipeline by commiting some changes onto git repo and trigger pipeline
+   
 
