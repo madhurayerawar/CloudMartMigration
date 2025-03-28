@@ -8,12 +8,12 @@ CloudMart is a scalable, AI-enhanced e-commerce solution built using multi-cloud
 
 ### Day 1 was using Terraform, AWS and automation using Claude (AI assistant) 
 Infrastructure as Code (IaC) tools allow infrastructure management through config files instead of a graphical interface, ensuring consistency, safety, and repeatability. Terraform is HashiCorp's IaC tool that defines and manages infrastructure using human-readable config files. 
-  Terraform files support Multi-Cloud (AWS, Azure, GCP etc.)
-  Provides State Tracking of resource lifecycle - State File tracks 
-  Infrastructure changes
-  Version Control integration for collaboration using GitHub, GitLabs
-  Providers - They interact with Cloud Services via APIs
-  Modules - Enable reusability and standardization
+- Terraform files support Multi-Cloud (AWS, Azure, GCP etc.)
+- Provides State Tracking of resource lifecycle - State File tracks
+- Infrastructure changes
+- Version Control integration for collaboration using GitHub, GitLabs
+- Providers - They interact with Cloud Services via APIs
+- Modules - Enable reusability and standardization
 
 Terraform Workflow involves:
 1. Scope - Define Infrastructure Requirements
