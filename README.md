@@ -4,6 +4,9 @@ CloudMart: AI-Driven E-Commerce Platform with MultiCloud & DevOps
 ## Project Overview
 CloudMart is a scalable, AI-enhanced e-commerce solution built using multi-cloud infrastructure, DevOps best practices, and automation. This project demonstrates how AI-powered recommendations, seamless cloud provisioning, and automated CI/CD pipelines can enhance modern applications.
 
+![CloudMart_SystemDesign_final](https://github.com/user-attachments/assets/c9d298ae-412e-4830-8efa-a6f4751ab909)
+
+
 ## Project Breakdown
 
 ### Day 1 Utilized Terraform, AWS and automation using Claude (AI assistant)
@@ -32,6 +35,8 @@ Terraform Workflow involves:
 4. Reviewed the Terraform plan using command - terraform plan
 5. Applied the configuration using the command - terraform apply
 
+
+
 ### Day 2 Mastering Containerization & Orchestration: CloudMart on Amazon EKS
 
 Step 1: Install Docker on EC2  
@@ -46,6 +51,10 @@ Step 4: Frontend and Backend Deployment on Kubernetes by creating an ECR reposit
 
 🌟 The Best Part?
 Watching the CloudMart website come to life on an Amazon EKS cluster, running smoothly and efficiently!
+
+![Day 2Pushing docker build](https://github.com/user-attachments/assets/ba178cb5-b73d-4927-bb5c-74592e30b0ab)
+![Day 2 -Front and Back end Imapge pushed on ECR](https://github.com/user-attachments/assets/1bfb3430-4b01-4d02-af3a-f7c7c3105439)
+![Day 2 website suceessfully loaded](https://github.com/user-attachments/assets/ddb2d460-09b6-4ec1-82eb-2ec122bc0edb)
 
 ### Day 3 Building CI/CD Pipeline using AWS Codebuild
 
@@ -62,6 +71,9 @@ Set up a CI/CD pipeline using 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱,
      3.a Create a Deployment Project which underneath performs kubectl commands used to deploy and configure EKS cluster
 4. Test the CI/CD Pipeline by commiting some changes onto git repo and trigger pipeline
    
+   ![Day 3 - Build Pipeline Created](https://github.com/user-attachments/assets/3600b752-d0f9-4f31-a4a7-c150fdea2be5)
+   ![day 3 auto deploy started](https://github.com/user-attachments/assets/45d08671-0d8d-470e-a385-f49892d4021e)
+
 ### Day 4 Adding OpenAI powered assisstant
 
 Implemented AI assistant to CloudMart for customer enquiries.
@@ -89,3 +101,7 @@ Implemented AI assistant to CloudMart for customer enquiries.
 2. Deployed updates to the 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗖𝗹𝘂𝘀𝘁𝗲𝗿 using 𝘬𝘶𝘣𝘦𝘤𝘵𝘭 𝘢𝘱𝘱𝘭𝘺 -𝘧 𝘤𝘭𝘰𝘶𝘥𝘮𝘢𝘳𝘵-𝘣𝘢𝘤𝘬𝘦𝘯𝘥.𝘺𝘢𝘮𝘭
 
 The 𝗔𝗜 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁𝘀 𝗮𝗿𝗲 𝗻𝗼𝘄 𝗹𝗶𝘃𝗲, responding politely and efficiently! 
+![day 4 open AI assistant configured](https://github.com/user-attachments/assets/d06be7e1-4602-43f2-a300-2bc8a5cd9a26)
+![Day 4 Order Cancelled](https://github.com/user-attachments/assets/59ef930d-675c-4a86-939a-cdc98060b42f)
+
+
