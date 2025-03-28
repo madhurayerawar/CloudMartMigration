@@ -1,8 +1,6 @@
-# CloudMartMigration
-CloudMart: AI-Driven E-Commerce Platform with MultiCloud & DevOps
-
-## Project Overview
-CloudMart is a scalable, AI-enhanced e-commerce solution built using multi-cloud infrastructure, DevOps best practices, and automation. This project demonstrates how AI-powered recommendations, seamless cloud provisioning, and automated CI/CD pipelines can enhance modern applications.
+# CloudMartMigration Project
+## Overview
+CloudMart: AI-Driven E-Commerce Platform with MultiCloud & DevOps. CloudMart is a scalable, AI-enhanced e-commerce solution built using multi-cloud infrastructure, DevOps best practices, and automation. This project demonstrates how AI-powered recommendations, seamless cloud provisioning, and automated CI/CD pipelines can enhance modern applications.
 
 ![CloudMart_SystemDesign_final](https://github.com/user-attachments/assets/c9d298ae-412e-4830-8efa-a6f4751ab909)
 
