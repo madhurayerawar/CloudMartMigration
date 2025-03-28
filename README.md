@@ -6,7 +6,7 @@ CloudMart is a scalable, AI-enhanced e-commerce solution built using multi-cloud
 
 ## Project Breakdown
 
-<ins>### Day 1 Utilized Terraform, AWS and automation using Claude (AI assistant) </ins>
+### Day 1 Utilized Terraform, AWS and automation using Claude (AI assistant)
 
 Infrastructure as Code (IaC) tools allow infrastructure management through config files instead of a graphical interface, ensuring consistency, safety, and repeatability. Terraform is HashiCorp's IaC tool that defines and manages infrastructure using human-readable config files. 
 - Terraform files support Multi-Cloud (AWS, Azure, GCP etc.)
@@ -32,7 +32,7 @@ Terraform Workflow involves:
 4. Reviewed the Terraform plan using command - terraform plan
 5. Applied the configuration using the command - terraform apply
 
-<ins>### Day 2 Mastering Containerization & Orchestration: CloudMart on Amazon EKS</ins>
+### Day 2 Mastering Containerization & Orchestration: CloudMart on Amazon EKS
 
 Step 1: Install Docker on EC2  
 Step 2: Create Docker image for CloudMart  
@@ -47,7 +47,7 @@ Step 4: Frontend and Backend Deployment on Kubernetes by creating an ECR reposit
 🌟 The Best Part?
 Watching the CloudMart website come to life on an Amazon EKS cluster, running smoothly and efficiently!
 
-<ins>### Day 3 Building CI/CD Pipeline using AWS Codebuild</ins>
+### Day 3 Building CI/CD Pipeline using AWS Codebuild
 
 In modern software development, Continuous Integration and Continuous Deployment (CI/CD) pipelines are the backbone of rapid, reliable, and automated deployments. They ensure seamless code integration, rigorous testing, and efficient delivery, reducing manual intervention and accelerating time to market.
 Set up a CI/CD pipeline using 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱, a fully managed build service that compiles source code, runs automated tests, and generates deployable artifacts—all without the overhead of managing infrastructure.
@@ -62,7 +62,7 @@ Set up a CI/CD pipeline using 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱,
      3.a Create a Deployment Project which underneath performs kubectl commands used to deploy and configure EKS cluster
 4. Test the CI/CD Pipeline by commiting some changes onto git repo and trigger pipeline
    
-<ins>### Day 4 Adding OpenAI powered assisstant</ins>
+### Day 4 Adding OpenAI powered assisstant
 
 Implemented AI assistant to CloudMart for customer enquiries.
 𝗔𝗺𝗮𝘇𝗼𝗻 𝗕𝗲𝗱𝗿𝗼𝗰𝗸 simplifies AI adoption by providing seamless access to 𝗳𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 𝗺𝗼𝗱𝗲𝗹𝘀 𝗳𝗿𝗼𝗺 𝘁𝗼𝗽 𝗔𝗜 𝗽𝗿𝗼𝘃𝗶𝗱𝗲𝗿𝘀, allowing businesses to build and scale generative AI applications without managing underlying infrastructure.  
