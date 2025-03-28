@@ -59,4 +59,29 @@ Set up a CI/CD pipeline using 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱,
      3.a Create a Deployment Project which underneath performs kubectl commands used to deploy and configure EKS cluster
 4. Test the CI/CD Pipeline by commiting some changes onto git repo and trigger pipeline
    
+### Day 4 Adding OpenAI powered assisstant
+Implemented AI assistant to CloudMart for customer enquiries.
+𝗔𝗺𝗮𝘇𝗼𝗻 𝗕𝗲𝗱𝗿𝗼𝗰𝗸 simplifies AI adoption by providing seamless access to 𝗳𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 𝗺𝗼𝗱𝗲𝗹𝘀 𝗳𝗿𝗼𝗺 𝘁𝗼𝗽 𝗔𝗜 𝗽𝗿𝗼𝘃𝗶𝗱𝗲𝗿𝘀, allowing businesses to build and scale generative AI applications without managing underlying infrastructure.  
+𝗖𝗹𝗮𝘂𝗱𝗲 𝟯 𝗦𝗼𝗻𝗻𝗲𝘁, by Anthropic, is a powerful AI model known for its 𝗳𝗮𝘀𝘁 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘁𝗶𝗺𝗲𝘀, 𝗻𝘂𝗮𝗻𝗰𝗲𝗱 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗿𝗲𝗮𝘀𝗼𝗻𝗶𝗻𝗴 𝗰𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀, making it ideal for customer interactions, recommendations, and data analysis.  
+𝗢𝗽𝗲𝗻𝗔𝗜 𝗚𝗣𝗧-𝟰𝗼 takes AI assistance to the next level with 𝗺𝘂𝗹𝘁𝗶-𝗺𝗼𝗱𝗮𝗹 𝗰𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀, 𝗿𝗲𝗮𝗹-𝘁𝗶𝗺𝗲 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲𝘀, 𝗮𝗻𝗱 𝗲𝗻𝗵𝗮𝗻𝗰𝗲𝗱 𝗮𝗰𝗰𝘂𝗿𝗮𝗰𝘆, offering businesses an intelligent, adaptable, and highly conversational AI-powered assistant.  
 
+##### 𝗔𝗺𝗮𝘇𝗼𝗻 𝗕𝗲𝗱𝗿𝗼𝗰𝗸 𝗔𝗴𝗲𝗻𝘁 𝗦𝗲𝘁𝘂𝗽:
+1. 𝗣𝗿𝗼𝘃𝗶𝘀𝗶𝗼𝗻𝗲𝗱 𝗶𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 using Terraform to automate IAM roles, policies, Bedrock Agent permissions, and Lambda function ARNs.
+2. 𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗲𝗱 𝗔𝗺𝗮𝘇𝗼𝗻 𝗕𝗲𝗱𝗿𝗼𝗰𝗸 𝗔𝗴𝗲𝗻𝘁:
+      - Requested access to the Claude 3 Sonnet Model.
+      - Created an AI Agent and selected Claude 3 Sonnet as the base model.
+      - Designed a structured set of 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 to guide the agent’s responses and workflow.
+3. 𝗦𝗲𝘁 𝘂𝗽 𝗜𝗔𝗠 𝗽𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀 for the Bedrock Agent to invoke Lambda functions and the 𝗖𝗹𝗮𝘂𝗱𝗲 𝟯 𝗦𝗼𝗻𝗻𝗲𝘁 𝗺𝗼𝗱𝗲𝗹.
+4. 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗮𝗻 𝗔𝗰𝘁𝗶𝗼𝗻 𝗚𝗿𝗼𝘂𝗽, defining API schemas and linking the Lambda function as the executor.
+5. 𝗧𝗲𝘀𝘁𝗲𝗱 𝘁𝗵𝗲 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 to ensure it retrieves data from the API and provides accurate product recommendations.
+
+##### 𝗢𝗽𝗲𝗻𝗔𝗜 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗳𝗼𝗿 𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁:
+1. 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗮 𝗚𝗣𝗧-𝟰𝗼 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 for CloudMart’s customer support.
+2. Defined its role to handle 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗶𝗻𝗾𝘂𝗶𝗿𝗶𝗲𝘀, 𝗼𝗿𝗱𝗲𝗿 𝗶𝘀𝘀𝘂𝗲𝘀, 𝗮𝗻𝗱 𝗴𝗲𝗻𝗲𝗿𝗮𝗹 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲 with friendly and professional responses.
+3. Enabled the 𝗖𝗼𝗱𝗲 𝗜𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗲𝗿 capability for troubleshooting technical issues.
+
+##### 𝗙𝗶𝗻𝗮𝗹 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁:
+1. Integrated the 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗜𝗗𝘀 𝗮𝗻𝗱 𝗮𝗰𝗰𝗲𝘀𝘀 𝗸𝗲𝘆𝘀 into the CloudMart backend.
+2. Deployed updates to the 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗖𝗹𝘂𝘀𝘁𝗲𝗿 using 𝘬𝘶𝘣𝘦𝘤𝘵𝘭 𝘢𝘱𝘱𝘭𝘺 -𝘧 𝘤𝘭𝘰𝘶𝘥𝘮𝘢𝘳𝘵-𝘣𝘢𝘤𝘬𝘦𝘯𝘥.𝘺𝘢𝘮𝘭
+
+The 𝗔𝗜 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁𝘀 𝗮𝗿𝗲 𝗻𝗼𝘄 𝗹𝗶𝘃𝗲, responding politely and efficiently! 
